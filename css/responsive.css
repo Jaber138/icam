@@ -1,0 +1,448 @@
+/*=======   project name : i-cam   =================*/
+
+
+
+
+/*================================
+        TABLET LAYOUT 
+================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #hero h5 {
+        font-size: 1.2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    #iphone {
+        transform: translateY(126.472px);
+    }
+
+    .hero-content {
+        margin: 34% 20% 35% 0;
+    }
+
+    #services h4 {
+        font-size: 1.4rem;
+    }
+
+    .paragraph-second {
+        padding-top: 8%;
+    }
+
+    .content a {
+        font-size: 13px;
+    }
+
+    .content-client a {
+        font-size: 13px;
+    }
+
+    .left-image a {
+        font-size: 13px;
+    }
+
+    .heart-content {
+        margin-left: 37%;
+    }
+
+    .signup-love {
+        margin-left: 64%;
+    }
+
+    .content {
+        padding: 32px 20px 34px 25px;
+    }
+
+    .content-client {
+        padding: 32px 20px 30px 25px;
+    }
+
+    .content-client p {
+        margin: 27px 0;
+    }
+
+    .left-image {
+        padding: 45px 20px 30px 25px;
+    }
+
+    .content p {
+        margin: 20px 0;
+    }
+
+    .content-client p {
+        margin: 22px 0;
+    }
+
+    #details h2 {
+        margin-bottom: 41px;
+    }
+
+    #details p {
+        margin-bottom: 41px;
+    }
+
+    #details {
+        padding: 30px 10px 20px 10px;
+    }
+
+    .hero-second-content {
+        margin: 66% 15% 17% 14%;
+    }
+
+    #reason {
+        padding: 80px 0 80px 0;
+    }
+
+    #package {
+        padding: 50px 21px 50px 30px;
+    }
+
+    .goit-solo {
+        margin-right: 32px;
+    }
+
+    .get-in {
+        padding: 0 18% 0 0;
+    }
+
+    .stay-in {
+        padding-left: 0;
+    }
+
+    .input-text {
+        width: 229px;
+    }
+
+    #footer {
+        padding: 76px 0 69px 61px;
+    }
+
+    .get-in {
+        padding: 0 6% 0 0;
+    }
+}
+
+
+
+
+/*================================
+        WIDE MOBILE LAYOUT
+================================*/
+
+@media only screen and (min-width:574px) and (max-width:767px) {
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    #iphone {
+        transform: translateY(81.472px);
+    }
+
+    .hero-content {
+        color: #ffffff;
+        margin: 27% 20% 29% 0;
+    }
+
+    #hero h5 {
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+
+    #hero .hero-overlay .logo-top img {
+        height: 27px;
+    }
+
+    #article h2 {
+        font-size: 1.5rem;
+    }
+
+    .paragraph-second {
+        padding-top: 9%;
+    }
+
+    .service-colum {
+        width: calc(100%/2);
+    }
+
+    .bottom-left {
+        width: calc(100%/2);
+    }
+
+    .bottom-right {
+        width: calc(100%/2);
+    }
+
+    .left-image {
+        padding: 26px 32px 32px 27px;
+    }
+
+    .service-content h4 {
+        font-size: 1.2rem;
+    }
+
+    .content {
+        padding: 26px 34px 32px 27px;
+    }
+
+    .content-client {
+        padding: 26px 34px 32px 27px;
+    }
+
+    .left-image p {
+        padding-right: 0;
+    }
+
+    .content a {
+        font-size: 13px;
+    }
+
+    .content-client a {
+        font-size: 13px;
+    }
+
+    .heart-content {
+        margin-left: 45%;
+    }
+
+    .left-image a {
+        font-size: 13px;
+    }
+
+    .signup-love {
+        margin-left: 27%;
+    }
+
+    #details {
+        padding-top: 40px;
+        padding-bottom: 56px;
+    }
+
+    .hero-second-content {
+        margin: 83% 27% 17% 4%;
+    }
+
+    #reason {
+        padding: 60px 0 60px 0;
+    }
+
+    #reason h2 {
+        font-size: 1.7rem;
+    }
+
+    #package {
+        padding: 50px 0 50px 0;
+    }
+
+    .package-content {
+        padding: 30px 0 40px 30px;
+    }
+
+    .goit-solo {
+        margin-right: 30px
+    }
+
+    #footer {
+        padding: 65px 0 47px 0;
+    }
+
+    .get-in {
+        padding: 0 5% 0 0;
+    }
+    
+    .get-in p{
+        text-align: justify;
+        margin-bottom: 0;
+    }
+
+    .stay-in {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .stay-in p{
+        padding-right: 17px;
+    }
+    
+    .input-text {
+        width: 196px;
+        height: 45px;
+    }  
+     
+    .footer-btn{
+        width: 50px;
+        height: 45px;
+    }
+}
+
+
+
+
+/*================================
+        MOBILE LAYOUT 
+================================*/
+
+@media only screen and (max-width:574px) {
+
+    .logo-top {
+        margin-top: 9%;
+        margin-left: 7%;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content {
+        margin: 16% 8% -44% 7%;
+    }
+
+    #iphone {
+        margin-left: 0;
+    }
+
+    #article {
+        padding: 7% 3%;
+        margin-top: 44%;
+    }
+
+    #article h2 {
+        font-size: 1.8rem;
+    }
+
+    .paragraph-second {
+        padding-top: 0;
+    }
+
+    .content a {
+        font-size: 13px;
+    }
+
+    .content-client a {
+        font-size: 13px;
+    }
+
+    .left-image a {
+        font-size: 13px;
+    }
+
+    .heart-content {
+        margin-left: 60%;
+    }
+
+    .signup-love {
+        margin-left: 51%;
+    }
+
+    .service-colum {
+        width: calc(100%/1);
+    }
+
+    .bottom-left {
+        width: calc(100%/1);
+    }
+
+    .bottom-right {
+        width: calc(100%/1);
+    }
+
+    .service-content {
+        padding: 0;
+    }
+
+    #details p {
+        margin-bottom: 41px;
+    }
+
+    #details {
+        padding: 10px 10px 7px 10px;
+    }
+
+    #details h2 {
+        font-size: 1.8rem;
+        margin-bottom: 34px;
+    }
+
+    .hero-second-content {
+        margin: 126% 0 19% 3%;
+    }
+
+    .hero-second-content h1 {
+        font-size: 2rem;
+    }
+
+    #reason {
+        padding: 60px 10px 20px 10px;
+    }
+
+    #reason h2 {
+        margin-bottom: 34px;
+        font-size: 1.7rem;
+    }
+
+    #reason p {
+        margin-bottom: 41px;
+    }
+
+    #package {
+        padding: 41px 10px 40px 10px;
+    }
+
+    .package-content {
+        margin: 0 10px;
+        padding: 50px 0 50px 26px;
+        max-width: 100%;
+    }
+
+    .goit-solo {
+        margin-bottom: 40px;
+    }
+
+    #footer {
+        padding: 71px 0 17px 29px;
+    }
+
+    .stay-in {
+        padding-left: 0;
+    }
+
+    .input-text {
+        width: 214px;
+        height: 45px;
+    }
+
+    .footer-links {
+        margin-bottom: 40px;
+    }
+
+    .get-in p {
+        margin-bottom: 49px;
+    }
+    
+    .footer-btn{
+        width: 50px;
+        height: 45px;
+    }    
+
+}
+
+
+
+/*==============================
+    Nexus 7, ipad pro 12in 
+==============================*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {}
+
+
+
+/*====================================================
+    FOR iPHONE OR OTHER THAT HAVE PIXEL RATIO 3
+====================================================*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {}
